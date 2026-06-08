@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import Link from "next/link";
 import { images } from "@/lib/images";
 
@@ -54,7 +54,7 @@ export function OurSpecialties() {
           {specialties.map((specialty) => (
             <article key={specialty.title} className="bg-neutral">
               <div className="relative aspect-[4/3] overflow-hidden">
-                <Image
+                <SafeImage
                   src={specialty.image}
                   alt={specialty.alt}
                   fill

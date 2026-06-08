@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import { images } from "@/lib/images";
 
 const stats = [
@@ -16,10 +16,11 @@ export function About() {
           <div className="relative mx-auto w-full max-w-md lg:max-w-none">
             <div className="absolute -bottom-5 -right-5 h-full w-full border border-primary-200" />
             <div className="relative aspect-square overflow-hidden">
-              <Image
+              <SafeImage
                 src={images.about.main}
                 alt="Professional makeup artistry at Makeovers by Muskan"
                 fill
+                priority
                 className="object-cover object-[center_32%]"
                 sizes="(max-width: 1024px) 100vw, 50vw"
               />

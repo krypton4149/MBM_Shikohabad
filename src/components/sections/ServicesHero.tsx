@@ -1,11 +1,11 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import Link from "next/link";
 import { images } from "@/lib/images";
 
 export function ServicesHero() {
   return (
     <section className="relative flex min-h-screen items-center justify-center overflow-hidden">
-      <Image
+      <SafeImage
         src={images.services.hero}
         alt="MBM Salon beauty services"
         fill

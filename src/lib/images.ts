@@ -25,7 +25,7 @@ export const images = {
     bride1: "/images/gallery/bride1.png",
     bride2: "/images/gallery/bride2.png",
     bride3: "/images/gallery/bride3.png",
-    whatsapp1: "/images/gallery/WhatsApp Image 2026-06-06 at 11.30.48.jpeg",
+    whatsapp1: "/images/gallery/whatsapp-bridal.jpeg",
     look1: "/images/gallery/gallery-1.jpg",
     look2: "/images/gallery/gallery-2.jpg",
     look3: "/images/gallery/gallery-3.jpg",

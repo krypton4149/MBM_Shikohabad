@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 import { images } from "@/lib/images";
 
@@ -71,7 +71,7 @@ export function Academy({ sectionId = "academy" }: AcademyProps) {
 
           <div className="relative mx-auto w-full max-w-md lg:max-w-none">
             <div className="relative aspect-[4/5] overflow-hidden">
-              <Image
+              <SafeImage
                 src={images.academy.makeup}
                 alt="Muskan teaching professional makeup at the academy"
                 fill

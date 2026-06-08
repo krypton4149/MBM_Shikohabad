@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import { images } from "@/lib/images";
 
 const studios = [
@@ -55,7 +55,7 @@ export function AcademyStudios() {
                   studio.tall ? "aspect-[3/4]" : "aspect-[4/3]"
                 }`}
               >
-                <Image
+                <SafeImage
                   src={studio.image}
                   alt={studio.alt}
                   fill

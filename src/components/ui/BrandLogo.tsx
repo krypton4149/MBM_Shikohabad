@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import Link from "next/link";
 import { BRAND_INITIALS, BRAND_NAME, BRAND_TAGLINE } from "@/lib/brand";
 import { images } from "@/lib/images";
@@ -17,7 +17,7 @@ export function BrandLogo({
   if (variant === "image") {
     return (
       <Link href={href} className={`inline-block ${className}`}>
-        <Image
+        <SafeImage
           src={images.logo.main}
           alt={`${BRAND_NAME} ${BRAND_TAGLINE}`}
           width={120}

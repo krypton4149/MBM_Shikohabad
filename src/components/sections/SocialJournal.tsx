@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import Link from "next/link";
 import {
   INSTAGRAM_REEL_URL,
@@ -84,7 +84,7 @@ export function SocialJournal() {
               rel="noopener noreferrer"
               className="group relative block aspect-[9/16] w-full overflow-hidden bg-primary-100"
             >
-              <Image
+              <SafeImage
                 src={image.src}
                 alt={image.alt}
                 fill

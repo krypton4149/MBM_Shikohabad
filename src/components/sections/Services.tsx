@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import { images } from "@/lib/images";
 
 const mainServices = [
@@ -99,7 +99,7 @@ export function Services() {
               className="overflow-hidden bg-neutral shadow-sm transition-shadow duration-300 hover:shadow-md"
             >
               <div className="relative aspect-square">
-                <Image
+                <SafeImage
                   src={service.image}
                   alt={service.alt}
                   fill

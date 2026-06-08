@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import { useState } from "react";
 import { images } from "@/lib/images";
 
@@ -135,7 +135,7 @@ export function PortfolioGallery() {
               key={item.id}
               className="group relative aspect-square overflow-hidden bg-primary-100"
             >
-              <Image
+              <SafeImage
                 src={item.image}
                 alt={item.alt}
                 fill

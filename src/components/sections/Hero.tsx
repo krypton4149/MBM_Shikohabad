@@ -1,11 +1,11 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import Link from "next/link";
 import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 
 export function Hero() {
   return (
     <section className="relative flex min-h-[calc(100vh-5rem)] w-full items-center overflow-hidden">
-      <Image
+      <SafeImage
         src="/images/hero/Hero_bridal.JPG"
         alt="Luxury bridal makeup and beauty"
         fill

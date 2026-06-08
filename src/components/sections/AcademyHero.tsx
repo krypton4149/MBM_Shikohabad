@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import Link from "next/link";
 import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 import { images } from "@/lib/images";
@@ -6,7 +6,7 @@ import { images } from "@/lib/images";
 export function AcademyHero() {
   return (
     <section className="relative flex min-h-[calc(100vh-5rem)] w-full items-center overflow-hidden bg-neutral">
-      <Image
+      <SafeImage
         src={images.academy.hero}
         alt="Makeup artist applying professional makeup"
         fill

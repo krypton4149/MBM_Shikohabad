@@ -1,4 +1,4 @@
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import { images } from "@/lib/images";
 
 const features = [
@@ -73,7 +73,7 @@ export function ServiceWhyChoose() {
             <div className="absolute -left-4 -top-4 h-16 w-16 border-l-2 border-t-2 border-secondary" />
             <div className="absolute -bottom-4 -right-4 h-16 w-16 border-b-2 border-r-2 border-secondary" />
             <div className="relative aspect-[4/5] overflow-hidden">
-              <Image
+              <SafeImage
                 src={images.services.whyChoose}
                 alt="Muskan providing bespoke bridal consultation"
                 fill

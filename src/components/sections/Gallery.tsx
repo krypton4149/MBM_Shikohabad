@@ -1,6 +1,6 @@
 "use client";
 
-import Image from "next/image";
+import { SafeImage } from "@/components/ui/SafeImage";
 import { useState } from "react";
 import { images } from "@/lib/images";
 
@@ -110,7 +110,7 @@ export function Gallery() {
                 filteredItems.length === 1 ? "w-full max-w-sm" : "w-full"
               }`}
             >
-              <Image
+              <SafeImage
                 src={item.image}
                 alt={item.alt}
                 fill
