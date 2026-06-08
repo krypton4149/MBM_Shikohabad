@@ -4,7 +4,7 @@ import { images } from "@/lib/images";
 const mainServices = [
   {
     title: "Bridal Makeup",
-    subtitle: "Starting from ₹15,000",
+    subtitle: "Bespoke Bridal Experience",
     image: images.services.bridalArtistry,
     alt: "Professional bridal makeup artistry",
   },

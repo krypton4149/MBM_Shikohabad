@@ -3,7 +3,8 @@ import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
 const packages = [
   {
     name: "Essence",
-    price: "$299",
+    collection: "Essential Collection",
+    note: "Ideal for intimate ceremonies",
     featured: false,
     features: [
       { text: "HD Makeup Application", included: true },
@@ -17,7 +18,8 @@ const packages = [
   },
   {
     name: "Radiance",
-    price: "$499",
+    collection: "Signature Collection",
+    note: "Our most requested experience",
     featured: true,
     badge: "Most Popular",
     features: [
@@ -32,7 +34,8 @@ const packages = [
   },
   {
     name: "Perfection",
-    price: "$799",
+    collection: "Prestige Collection",
+    note: "Fully bespoke, end-to-end luxury",
     featured: false,
     features: [
       { text: "International Artist Lead", included: true },
@@ -83,13 +86,29 @@ export function CuratedPackages() {
                 {pkg.name}
               </h3>
 
-              <p
-                className={`mt-4 font-headline text-4xl font-semibold md:text-5xl ${
-                  pkg.featured ? "text-primary" : "text-secondary"
-                }`}
-              >
-                {pkg.price}
-              </p>
+              <div className="mt-5">
+                <p
+                  className={`font-headline text-xl font-medium tracking-wide md:text-2xl ${
+                    pkg.featured ? "text-secondary" : "text-secondary"
+                  }`}
+                >
+                  {pkg.collection}
+                </p>
+                <p
+                  className={`mt-2 text-label tracking-[0.12em] ${
+                    pkg.featured ? "text-primary-400" : "text-neutral/70"
+                  }`}
+                >
+                  {pkg.note}
+                </p>
+                <p
+                  className={`mt-4 text-[0.65rem] font-medium uppercase tracking-[0.2em] ${
+                    pkg.featured ? "text-primary-300" : "text-neutral/50"
+                  }`}
+                >
+                  Pricing on consultation
+                </p>
+              </div>
 
               <ul className="mt-8 flex-1 space-y-3">
                 {pkg.features.map((feature) => (
