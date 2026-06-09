@@ -64,15 +64,35 @@ const portfolioItems = [
     alt: "MBM Salon bridal transformation",
     category: "bridal",
   },
- 
+  {
+    id: 8,
+    image: images.gallery.eng,
+    alt: "Engagement makeup look by MBM Beauty Studio",
+    category: "engagement",
+    objectPosition: "object-[center_30%]",
+  },
   {
     id: 9,
+    image: images.gallery.eng2,
+    alt: "Engagement makeup and styling by MBM",
+    category: "engagement",
+    objectPosition: "object-[center_28%]",
+  },
+  {
+    id: 10,
+    image: images.gallery.eng3,
+    alt: "Engagement beauty look by Makeovers by Muskan",
+    category: "engagement",
+    objectPosition: "object-[center_30%]",
+  },
+  {
+    id: 11,
     image: images.services.bridalArtistry,
     alt: "Professional bridal makeup artistry",
     category: "editorial",
   },
   {
-    id: 11,
+    id: 12,
     image: images.services.hdAirbrush,
     alt: "HD and airbrush makeup application",
     category: "editorial",

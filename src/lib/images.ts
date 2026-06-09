@@ -43,6 +43,9 @@ export const images = {
     reel2: "/images/gallery/Reel2.png",
     reel3: "/images/gallery/Reel3.png",
     reel4: "/images/gallery/Reel4.png",
+    eng: "/images/gallery/Eng.jpeg",
+    eng2: "/images/gallery/Eng2.jpeg",
+    eng3: "/images/gallery/Eng3.jpeg",
   },
   services: {
     bridalMakeup: "/images/services/bridal-makeup.jpg",
