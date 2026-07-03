@@ -24,7 +24,7 @@ const galleryItems = [
   },
   {
     id: 3,
-    image: images.gallery.haldi,
+    image: images.gallery.b2,
     alt: "Haldi ceremony bridal look",
     category: "haldi" as const,
     objectPosition: "object-[center_28%]",
@@ -40,13 +40,13 @@ const bridalItems = [
   },
   {
     id: 5,
-    image: images.gallery.bride2,
+    image: images.gallery.b2,
     alt: "MBM bridal makeup look two",
     objectPosition: "object-[center_28%]",
   },
   {
     id: 6,
-    image: images.gallery.bride3,
+    image: images.gallery.b3,
     alt: "MBM bridal makeup look three",
     objectPosition: "object-[center_32%]",
   },
