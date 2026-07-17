@@ -10,10 +10,10 @@ type Filter = (typeof filters)[number];
 const galleryItems = [
   {
     id: 1,
-    image: images.gallery.img1,
-    alt: "Bridal makeup look with traditional jewelry and emerald accessories",
+    image: images.gallery.be2,
+    alt: "MBM bridal makeup look with traditional jewelry",
     category: "bridal" as const,
-    objectPosition: "object-[center_35%]",
+    objectPosition: "object-[center_28%]",
   },
   {
     id: 2,
