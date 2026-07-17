@@ -107,6 +107,20 @@ const portfolioItems = [
     objectPosition: "object-[center_30%]",
   },
   {
+    id: 16,
+    image: images.gallery.be1,
+    alt: "MBM bridal makeup look seven",
+    category: "bridal",
+    objectPosition: "object-[center_30%]",
+  },
+  {
+    id: 17,
+    image: images.gallery.be2,
+    alt: "MBM bridal makeup look eight",
+    category: "bridal",
+    objectPosition: "object-[center_28%]",
+  },
+  {
     id: 11,
     image: images.services.bridalArtistry,
     alt: "Professional bridal makeup artistry",

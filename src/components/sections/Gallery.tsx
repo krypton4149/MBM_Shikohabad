@@ -50,6 +50,18 @@ const bridalItems = [
     alt: "MBM bridal makeup look three",
     objectPosition: "object-[center_32%]",
   },
+  {
+    id: 7,
+    image: images.gallery.be1,
+    alt: "MBM bridal makeup look four",
+    objectPosition: "object-[center_30%]",
+  },
+  {
+    id: 8,
+    image: images.gallery.be2,
+    alt: "MBM bridal makeup look five",
+    objectPosition: "object-[center_28%]",
+  },
 ];
 
 export function Gallery() {

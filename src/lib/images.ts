@@ -28,6 +28,8 @@ export const images = {
     b1: "/images/gallery/b1.JPG",
     b2: "/images/gallery/b2.JPG",
     b3: "/images/gallery/b3.JPG",
+    be1: "/images/gallery/Be1.JPG",
+    be2: "/images/gallery/Be2.JPG",
     whatsapp1: "/images/gallery/whatsapp-bridal.jpeg",
     look1: "/images/gallery/gallery-1.jpg",
     look2: "/images/gallery/gallery-2.jpg",
