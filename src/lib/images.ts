@@ -66,7 +66,7 @@ export const images = {
     whyChoose: "/images/services/Client.png",
   },
   about: {
-    main: "/images/about/About.png",
+    main: "/images/about/muskan.png",
     makeup: "/images/about/about-makeup.jpg",
   },
   team: {
