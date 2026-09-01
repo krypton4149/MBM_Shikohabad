@@ -18,20 +18,27 @@ type Filter = (typeof filters)[number];
 const portfolioItems = [
   {
     id: 1,
+    image: images.gallery.new,
+    alt: "MBM bridal makeup look in red lehenga",
+    category: "bridal",
+    objectPosition: "object-[center_30%]",
+  },
+  {
+    id: 2,
     image: images.gallery.img1,
     alt: "Bridal makeup with traditional jewelry and emerald accessories",
     category: "bridal",
     objectPosition: "object-[center_30%]",
   },
   {
-    id: 2,
+    id: 3,
     image: images.gallery.img2,
     alt: "Reception bridal makeup and styling",
     category: "reception",
     objectPosition: "object-[center_22%]",
   },
   {
-    id: 3,
+    id: 4,
     image: images.gallery.haldi,
     alt: "Haldi ceremony bridal look",
     category: "haldi",

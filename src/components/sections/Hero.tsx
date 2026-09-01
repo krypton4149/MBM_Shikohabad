@@ -1,17 +1,18 @@
 import { SafeImage } from "@/components/ui/SafeImage";
 import Link from "next/link";
 import { WhatsAppLink } from "@/components/ui/WhatsAppLink";
+import { images } from "@/lib/images";
 
 export function Hero() {
   return (
     <section className="relative flex min-h-[calc(100vh-5rem)] w-full items-center overflow-hidden">
       <SafeImage
-        src="/images/hero/Hero_bridal.JPG"
+        src={images.hero.bridal}
         alt="Luxury bridal makeup and beauty"
         fill
         priority
         quality={90}
-        className="object-cover object-[75%_center]"
+        className="object-cover object-[62%_4%] sm:object-[65%_5%] lg:object-[68%_6%]"
         sizes="100vw"
       />
 

@@ -14,7 +14,7 @@
 
 export const images = {
   hero: {
-    bridal: "/images/hero/Hero_bridal.JPG",
+    bridal: "/images/gallery/new.JPG",
   },
   gallery: {
     img1: "/images/gallery/IMG1.JPG",
@@ -30,6 +30,7 @@ export const images = {
     b3: "/images/gallery/b3.JPG",
     be1: "/images/gallery/Be1.JPG",
     be2: "/images/gallery/Be2.JPG",
+    new: "/images/gallery/new.JPG",
     whatsapp1: "/images/gallery/whatsapp-bridal.jpeg",
     look1: "/images/gallery/gallery-1.jpg",
     look2: "/images/gallery/gallery-2.jpg",

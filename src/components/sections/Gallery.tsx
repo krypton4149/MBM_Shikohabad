@@ -10,20 +10,27 @@ type Filter = (typeof filters)[number];
 const galleryItems = [
   {
     id: 1,
+    image: images.gallery.new,
+    alt: "MBM bridal makeup look in red lehenga",
+    category: "bridal" as const,
+    objectPosition: "object-[center_30%]",
+  },
+  {
+    id: 2,
     image: images.gallery.be2,
     alt: "MBM bridal makeup look with traditional jewelry",
     category: "bridal" as const,
     objectPosition: "object-[center_28%]",
   },
   {
-    id: 2,
+    id: 3,
     image: images.gallery.img2,
     alt: "Reception bridal makeup and styling",
     category: "reception" as const,
     objectPosition: "object-[center_22%]",
   },
   {
-    id: 3,
+    id: 4,
     image: images.gallery.b2,
     alt: "Haldi ceremony bridal look",
     category: "haldi" as const,
@@ -33,31 +40,37 @@ const galleryItems = [
 
 const bridalItems = [
   {
-    id: 4,
+    id: 5,
+    image: images.gallery.new,
+    alt: "MBM bridal makeup look in red lehenga",
+    objectPosition: "object-[center_30%]",
+  },
+  {
+    id: 6,
     image: images.gallery.bride1,
     alt: "MBM bridal makeup look one",
     objectPosition: "object-[center_30%]",
   },
   {
-    id: 5,
+    id: 7,
     image: images.gallery.b2,
     alt: "MBM bridal makeup look two",
     objectPosition: "object-[center_28%]",
   },
   {
-    id: 6,
+    id: 8,
     image: images.gallery.b3,
     alt: "MBM bridal makeup look three",
     objectPosition: "object-[center_32%]",
   },
   {
-    id: 7,
+    id: 9,
     image: images.gallery.be1,
     alt: "MBM bridal makeup look four",
     objectPosition: "object-[center_30%]",
   },
   {
-    id: 8,
+    id: 10,
     image: images.gallery.be2,
     alt: "MBM bridal makeup look five",
     objectPosition: "object-[center_28%]",
